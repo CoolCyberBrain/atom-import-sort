@@ -1,2 +1,2 @@
-'atom-text-editor[data-grammar~="source"][data-grammar~="js"],atom-text-editor[data-grammar~="source"][data-grammar~="ts"]':
+'atom-text-editor[data-grammar~="source"][data-grammar~="js"],atom-text-editor[data-grammar~="source"][data-grammar~="ts"],atom-text-editor[data-grammar~="source"][data-grammar~="flow"]':
   'ctrl-alt-o': 'import-sort:sort'

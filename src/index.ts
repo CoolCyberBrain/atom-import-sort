@@ -37,7 +37,7 @@ export class Plugin {
 
     // tslint:disable-next-line
     atom.commands.add(
-      'atom-text-editor[data-grammar~="source"][data-grammar~="js"],atom-text-editor[data-grammar~="source"][data-grammar~="ts"]',
+      'atom-text-editor[data-grammar~="source"][data-grammar~="js"],atom-text-editor[data-grammar~="source"][data-grammar~="ts"],atom-text-editor[data-grammar~="source"][data-grammar~="flow"]',
       "import-sort:sort",
       () => this.sortCurrentEditor(),
     );
